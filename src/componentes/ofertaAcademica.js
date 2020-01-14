@@ -85,7 +85,7 @@ class OfertaAcademica extends Component{
           {this.state.carrerasArray.map((it, key)=>(
             <CarreraItem keyIdenty={key} nombre={it.name} link={it.link} card={it.card} portada={it.portada} youtube={it.youtube} objetivo={it.objetivo} perfil={it.perfilEgreso} reticula={it.reticula} folleto={it.folleto} campus={it.campus}/>
           ))}
-          
+
         </div>
         <Footer/>
       </div>
